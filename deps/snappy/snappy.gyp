@@ -2,6 +2,7 @@
     'variables': {
         'conditions': [
             ['OS=="linux"',   {'os_include': 'linux'}]
+          , ['OS=="ios"',     {'os_include': 'mac'}]
           , ['OS=="mac"',     {'os_include': 'mac'}]
           , ['OS=="solaris"', {'os_include': 'solaris'}]
           , ['OS=="win"',     {'os_include': 'win32'}]
